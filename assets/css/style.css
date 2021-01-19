@@ -18,25 +18,21 @@ background-image: url("../images/background.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: bottom;
-
-
-
-}
-
-
-
-#logo {
-
-
-
-
+display:flex;
 
 
 }
 
-#menu {
 
 
+header #logo {
+width: 200px;
+
+
+}
+
+header #menu {
+    flex:1;
 
 
 }
