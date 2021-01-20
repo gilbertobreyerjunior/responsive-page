@@ -36,3 +36,26 @@ header #menu {
 
 
 }
+
+header #menu ul {
+
+display: flex;
+justify-content: flex-end;
+
+}
+
+header #menu li {
+
+
+min-width: 100px;
+
+}
+
+header #menu a {
+
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+padding: 20px;
+
+}
