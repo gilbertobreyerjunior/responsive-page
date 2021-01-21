@@ -97,7 +97,7 @@ max-width: 350px;
 position:absolute;
 bottom: 0;
 right: 10vh;
-box-shadow: 0 0 0 2.187rem rgba(142,152, 164, .125);
+box-shadow: 0 0 0 0.187rem rgba(142,152, 164, .125);
 border-top-right-radius: 0.26rem;
 border-top-left-radius: 0.26rem;
 }
