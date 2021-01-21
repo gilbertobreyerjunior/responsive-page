@@ -27,7 +27,11 @@ display:flex;
 
 header #logo {
 width: 200px;
-
+color: #fff;
+line-height: 58px;
+text-align: center;
+font-size: 2em;
+text-shadow: #000 1px 1px 8px;
 
 }
 
