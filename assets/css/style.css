@@ -18,7 +18,6 @@ background-image: url("../images/background.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: bottom;
-display:flex;
 
 
 }
@@ -27,8 +26,8 @@ header .bg-gradient {
 
 min-height: 300px;
 background: linear-gradient(to bottom, rgba(0, 0, 0, .65) 0%, rgba(0, 0, 0, 0) 100%);
-
-
+width: 100%;
+display:flex;
 
 }
 
