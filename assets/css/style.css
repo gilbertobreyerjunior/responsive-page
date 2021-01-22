@@ -101,3 +101,13 @@ box-shadow: 0 0 0 0.187rem rgba(142,152, 164, .125);
 border-top-right-radius: 0.26rem;
 border-top-left-radius: 0.26rem;
 }
+
+#register p {
+
+font-size: 1.5em;
+font-size: bold;
+margin-bottom: 35px;
+
+
+
+}
