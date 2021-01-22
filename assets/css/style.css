@@ -134,25 +134,38 @@ width: 25px;
 
 }
 
-#register button {
-
-width: 95%;
-border: none;
-background-color: blue;
-color: #ccc;
-padding: .75rem;
-font-size: 1.2em;
-border-radius: 10px;
+/* #register button {
 
 
 
-}
+} */
 
-#button-register {
+.button-register button {
 
 text-align: center;
-   
+width: 95%;
+border: none;
+color:white;
+font-size: 1.5em;
+border-radius: 10px;
+background-color: rgba(49, 49, 232, 0.563);
+padding: 9px 5px;
 }
+
+.button-register button:hover {
+
+    background-color: rgba(11, 25, 107, 0.651);
+    cursor: pointer;
+ 
+
+
+}
+
+.button-register button:active {
+
+    background-color:rgba(51, 62, 211, 0.835);
+    
+    }
 
 .container {
 
@@ -176,3 +189,4 @@ padding-right: 15px;
 
     text-align: justify;
 }
+
