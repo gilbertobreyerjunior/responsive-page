@@ -109,8 +109,6 @@ font-size: 1.5em;
 font-size: bold;
 margin-bottom: 35px;
 
-
-
 }
 
 #register .field {
@@ -153,6 +151,6 @@ border-radius: 10px;
 #button-register {
 
 
-    text-align: center;
+text-align: center;
    
 }
