@@ -190,3 +190,27 @@ padding-right: 15px;
     text-align: justify;
 }
 
+footer {
+
+background-color: rgb(86, 39, 255);
+color:white;
+
+
+}
+
+footer p {
+
+
+    line-height: 35px;
+}
+
+footer .container {
+
+
+    display: flex;
+}
+footer .menu a {
+
+color:white
+
+}
