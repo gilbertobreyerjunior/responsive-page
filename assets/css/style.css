@@ -100,6 +100,7 @@ right: 10vh;
 box-shadow: 0 0 0 0.187rem rgba(142,152, 164, .125);
 border-top-right-radius: 0.26rem;
 border-top-left-radius: 0.26rem;
+padding: 20px;
 }
 
 #register p {
@@ -133,4 +134,25 @@ border: #ccc 1px solid;
 width: 25px;
 
 
+}
+
+#register button {
+
+width: 95%;
+border: none;
+background-color: blue;
+color: #ccc;
+padding: .75rem;
+font-size: 1.2em;
+border-radius: 10px;
+
+
+
+}
+
+#button-register {
+
+
+    text-align: center;
+   
 }
