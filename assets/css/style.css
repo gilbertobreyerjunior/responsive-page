@@ -224,7 +224,14 @@ display: block;
 }
 @media(max-width: 450px) {
 
+.menu .close-menu {
 
+display: block;
+text-align: right;
+background-color: #eee;
+
+
+}
  header .header-border {
 
 
