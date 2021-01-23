@@ -56,13 +56,13 @@ text-shadow: #000 1px 1px 8px;
 
 }
 
-header #menu {
+.menu {
     flex:1;
 
 
 }
 
-header #menu ul {
+.menu ul {
 
 display: flex;
 justify-content: flex-end;
@@ -71,7 +71,7 @@ padding: 0;
 
 }
 
-header #menu li {
+.menu li {
 
 
 min-width: 100px;
@@ -79,7 +79,7 @@ line-height: 28px;
 
 }
 
-header #menu a {
+.menu a {
 
 color: #fff;
 text-decoration: none;
@@ -194,6 +194,7 @@ footer {
 
 background-color: rgb(86, 39, 255);
 color:white;
+font-size: .8rem;
 
 
 }
@@ -212,5 +213,17 @@ footer .container {
 footer .menu a {
 
 color:white
+
+}
+
+@media(max-width: 450px) {
+
+
+.menu ul {
+
+    display: none;
+}
+
+
 
 }
