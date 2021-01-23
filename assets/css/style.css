@@ -216,12 +216,25 @@ color:white
 
 }
 
-.menu .menu-open {
+.menu .open-menu{
 
-display: block;
+display: none;
 
 
 }
+
+.backdrop {
+
+display: none;
+
+}
+
+.close-menu {
+
+display: none;
+
+}
+
 @media(max-width: 450px) {
 
 .menu .close-menu {
@@ -232,6 +245,40 @@ background-color: #eee;
 
 
 }
+
+.menu .close-menu button {
+
+border: none;
+background: none;
+font-size: 2em;
+padding: .75rem 1rem;
+
+
+}
+
+.menu.open .backdrop {
+
+  opacity: .5; 
+ 
+
+}
+
+.menu .backdrop {
+
+    opacity: 0;
+    background-color:#000;
+    transition: opacity .15s linear;
+    position: fixed;
+    width:100%;
+    height: 100vh;
+    z-index: 1;
+    left: 0;
+    top: 0;
+
+
+
+}
+
  header .header-border {
 
 
@@ -249,7 +296,7 @@ background-color: #eee;
     width: 80vw;
     height: 100vh;
     background-color: #fff;
-    z-index: 1;
+    z-index: 2;
     margin: 0;
     transition: right 2s linear;
 }
