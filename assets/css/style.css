@@ -223,7 +223,15 @@ color:white
 
     display: none;
 }
+#register {
 
+width: 90%;
+margin: 0 5%;
+max-width: initial;
+right: initial;
+
+
+}
 
 
 }
