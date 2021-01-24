@@ -5,10 +5,15 @@ document.querySelector('.open-menu').addEventListener('click', e=> {
 
         });
 
-     document.querySelector('.close-menu').addEventListener('click', e=> {
+     document.querySelector('.close-menu button').addEventListener('click', e=> {
 
         document.querySelector('header .menu').classList.remove('open');
 
                 });
 
-                
+
+                document.querySelector('.backdrop').addEventListener('click', e=> {
+
+                    document.querySelector('header .menu').classList.remove('open');
+
+                      });
