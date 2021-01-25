@@ -88,6 +88,14 @@ padding: 20px;
 
 }
 
+
+.menu a:hover {
+    
+    color: #ccc;
+    cursor: pointer;
+    
+    }
+
 #register {
 
 background-color: #fff;
